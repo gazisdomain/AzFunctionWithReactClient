@@ -1,0 +1,32 @@
+# ---- .NET / Azure Functions ----
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.vs/
+
+# Azure Functions local secrets (DO NOT COMMIT)
+TodoFunctions/local.settings.json
+
+# ---- Node / React ----
+node_modules/
+dist/
+build/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# IDE/editor
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Env files (optional — ignore if you don’t want API base in git)
+AzFuncAppClientReact/.env
+AzFuncAppClientReact/.env.local
+AzFuncAppClientReact/.env.development
+AzFuncAppClientReact/.env.production
