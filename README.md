@@ -1,5 +1,8 @@
 # Azure Function App with React Client
 
+![Build](https://github.com/gazisdomain/AzFunctionWithReactClient/actions/workflows/build.yml/badge.svg)
+
+
 This project demonstrates a **full-stack application** using:
 
 - **Azure Functions (Isolated .NET 8)** – backend API
